@@ -9,6 +9,8 @@ public class Main {
 
         String relatorio = "Olá, me chamo " +nome +  ", tenho " + idade + " Anos e recebi meu primeiro salário de " + salario + " no dia " + data;
         System.out.println(relatorio);
+
+        
     }
     
-}
+} 
