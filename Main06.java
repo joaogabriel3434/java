@@ -1,7 +1,9 @@
-import java.sql.SQLInvalidAuthorizationSpecException;
+import java.util.Scanner;
 
 public class Main06 {
     public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
         
         double SalarioAnual = 70000;
         double PrimeiraFaixa = 9.70 / 100;
