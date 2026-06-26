@@ -9,6 +9,21 @@ public class Main09 {
             System.out.println(i);
             
         }
+
+        //Exercício de Break//
+
+        double valorTotal = 30000;
+
+        for(int Parcela=1; Parcela<=valorTotal;Parcela++){
+            double valorParcela = valorTotal / Parcela;
+            if (valorParcela >=1000) {
+                  System.out.println("Quantidade de vezes: " +Parcela+ " Valor da parcela em R$: "+valorParcela);
+            }
+            else{
+                break;
+            }
+          
+        }
         
     }
 }
